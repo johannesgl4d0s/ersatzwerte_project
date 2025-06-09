@@ -1,0 +1,67 @@
+station_id,error
+32,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+34,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+49,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+84,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+89,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+97,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+107,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+153,max_retries
+154,max_retries
+155,max_retries
+156,max_retries
+157,max_retries
+158,max_retries
+159,max_retries
+160,max_retries
+161,max_retries
+162,max_retries
+163,max_retries
+164,max_retries
+165,max_retries
+166,max_retries
+167,max_retries
+172,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+184,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+199,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+1420,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+1901,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+2502,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+2503,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+3315,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+3410,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+4102,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+4515,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+5607,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+7012,max_retries
+7013,max_retries
+7020,max_retries
+7110,max_retries
+7200,max_retries
+7220,max_retries
+7221,max_retries
+7300,max_retries
+7301,max_retries
+7305,max_retries
+7500,max_retries
+7502,max_retries
+7505,max_retries
+7531,max_retries
+7601,max_retries
+7603,max_retries
+7604,max_retries
+7606,max_retries
+7610,max_retries
+7641,max_retries
+7653,max_retries
+7700,max_retries
+7704,max_retries
+7707,max_retries
+7710,max_retries
+7714,max_retries
+7803,max_retries
+7906,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+8805,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+9605,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+10111,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
+10412,"HTTPSConnectionPool(host='dataset.api.hub.geosphere.at', port=443): Read timed out. (read timeout=120)"
