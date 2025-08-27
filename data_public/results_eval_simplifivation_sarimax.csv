@@ -1,0 +1,18 @@
+,Model,Included Features,Dropped in this step,RMSE,MAE,Train Time (s),Forecast Time (s)
+0,SARIMAX | k=16 | Start (alle Features),"['hour', 'weekday', 'month', 'is_weekend', 'w_tl', 'w_rf', 'w_ff', 'w_ffx', 'w_cglo', 'w_so_h', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",,6.566898873155573,5.226988464175344,451.11362810002174,0.23823509993962944
+1,SARIMAX | k=15 | drop: month,"['hour', 'weekday', 'is_weekend', 'w_tl', 'w_rf', 'w_ff', 'w_ffx', 'w_cglo', 'w_so_h', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",month,6.467762809823253,5.174849653121446,419.31166779994965,0.21574370004236698
+2,SARIMAX | k=14 | drop: w_so_h,"['hour', 'weekday', 'is_weekend', 'w_tl', 'w_rf', 'w_ff', 'w_ffx', 'w_cglo', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",w_so_h,6.448787570548925,5.160023738443137,553.2407341999933,0.38263110001571476
+3,SARIMAX | k=13 | drop: w_cglo,"['hour', 'weekday', 'is_weekend', 'w_tl', 'w_rf', 'w_ff', 'w_ffx', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",w_cglo,6.42936031518531,5.1415236465223755,727.6400065999478,0.5661070999922231
+4,SARIMAX | k=12 | drop: w_ffx,"['hour', 'weekday', 'is_weekend', 'w_tl', 'w_rf', 'w_ff', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",w_ffx,6.36511593524516,5.091094907149362,351.5576937000733,0.24910259991884232
+5,SARIMAX | k=11 | drop: is_weekend,"['hour', 'weekday', 'w_tl', 'w_rf', 'w_ff', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",is_weekend,6.365689444931174,5.090716085663407,341.1433804000262,0.28429440001491457
+6,SARIMAX | k=10 | drop: w_rf,"['hour', 'weekday', 'w_tl', 'w_ff', 'w_rr', 'w_rrm', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",w_rf,6.342823655614364,5.082940843271578,351.86264519998804,0.23402099998202175
+7,SARIMAX | k=9 | drop: w_rrm,"['hour', 'weekday', 'w_tl', 'w_ff', 'w_rr', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",w_rrm,6.328288247919628,5.074058312972621,327.9821665000636,0.26940629992168397
+8,SARIMAX | k=8 | drop: w_rr,"['hour', 'weekday', 'w_tl', 'w_ff', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",w_rr,6.337519488216607,5.080702202544863,313.00512240000535,0.24059969990048558
+9,SARIMAX | k=7 | drop: weekday,"['hour', 'w_tl', 'w_ff', 'w_tb10', 'w_tb20', 'CEGH_WAP', 'THE_WAP']",weekday,6.359246130786445,5.0944819289995165,295.4673596000066,0.2697379000019282
+10,SARIMAX | k=6 | drop: CEGH_WAP,"['hour', 'w_tl', 'w_ff', 'w_tb10', 'w_tb20', 'THE_WAP']",CEGH_WAP,6.448862011702575,5.1586893922398005,245.63382790004835,0.2196556000271812
+11,SARIMAX | k=5 | drop: w_ff,"['hour', 'w_tl', 'w_tb10', 'w_tb20', 'THE_WAP']",w_ff,6.569957877256051,5.232159681204469,229.2156682999339,0.23904030001722276
+12,SARIMAX | k=4 | drop: hour,"['w_tl', 'w_tb10', 'w_tb20', 'THE_WAP']",hour,6.493095281817067,5.18024234444311,231.76905240002088,0.2341546000679955
+13,SARIMAX | k=3 | drop: w_tb20,"['w_tl', 'w_tb10', 'THE_WAP']",w_tb20,6.487008682109551,5.184761665263951,164.61268989997916,0.2684759000549093
+14,SARIMAX | k=2 | drop: THE_WAP,"['w_tl', 'w_tb10']",THE_WAP,6.727590698744534,5.354621052193697,118.58500520000234,0.2666315999813378
+15,SARIMAX | k=1 | drop: w_tl,['w_tb10'],w_tl,7.086394860434994,5.637320722535045,102.84866450005211,0.24466770002618432
+16,SARIMAX | k=0 | drop: w_tb10,[],w_tb10,15.053244554048117,12.916670252999431,78.1772952999454,0.22267430007923394
