@@ -1,0 +1,7 @@
+{
+  "resample_rule": "6h",
+  "interpolate_limit": 2,
+  "target_len": 1024,
+  "sakoe_chiba_radius": 64,
+  "zscore": true
+}

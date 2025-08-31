@@ -1,5 +1,6 @@
 import os
 import pickle
+import pandas as pd
 
 def load_series_dfs(data_dir=None, filename='series_dfs.pkl'):
     """
@@ -37,3 +38,4 @@ def load_series_dfs(data_dir=None, filename='series_dfs.pkl'):
         series_dfs = pickle.load(f)
 
     return series_dfs
+
